@@ -26,4 +26,4 @@ createRoot(document.getElementById('root')).render(
       </BrowserRouter>
     </ClerkProvider>
   </StrictMode>,
-)
+);
