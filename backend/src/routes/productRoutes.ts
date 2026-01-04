@@ -16,8 +16,8 @@ router.get("/:id", productController.getProductById);
 // POST /api/products - Create new product (protected)
 router.post("/", requireAuth(), productController.createProduct);
 
-// POST /api/products - Create new product (protected)
-router.post("/", requireAuth(), productController.createProduct);
+// PUT /api/products/:id - Update product (protected - owner only)
+router.put("/:id", requireAuth(), productController.updateProduct);
 
 // DELETE /api/products/:id - Delete product (protected - owner only)
 router.delete("/:id", requireAuth(), productController.deleteProduct);
