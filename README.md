@@ -64,8 +64,35 @@ The project demonstrates modern full-stack development practices, combining secu
    ```
 
 ### Configuration
-- Backend: Configure environment variables in `backend/src/config/env.ts`
-- Database: Set up your database connection and run migrations with Drizzle
+
+#### Backend Configuration
+Create a `.env` file in the `backend` directory and add the following environment variables:
+
+```env
+PORT=5000
+DATABASE_URL=your_database_connection_string
+NODE_ENV=development
+FRONTEND_URL=http://localhost:3000
+CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+```
+
+#### Frontend Configuration
+Create a `.env` file in the `frontend` directory and add the following environment variables:
+
+```env
+VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+VITE_API_BASE_URL=http://localhost:5000/api
+```
+
+#### Database Setup
+Set up your database connection using the `DATABASE_URL` in the backend `.env` file.
+Run database migrations with Drizzle:
+
+```bash
+cd backend
+npm run db:push
+```
 
 ### Running the Application
 
