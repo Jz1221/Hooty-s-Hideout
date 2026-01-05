@@ -5,6 +5,8 @@ Just like Hooty guards the Owl House, this app acts as a hub where users can man
 
 The project demonstrates modern full-stack development practices, combining secure authentication, RESTful APIs, and a responsive frontend.
 
+![Hooty](./screenshorts/hooty.png)
+
 ## 🏗️ Project Structure
 
 ### Backend (`/backend`)
