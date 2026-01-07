@@ -6,6 +6,7 @@ Just like Hooty guards the Owl House, this app acts as a hub where users can man
 The project demonstrates modern full-stack development practices, combining secure authentication, RESTful APIs, and a responsive frontend.
 
 ![Hooty](./screenshorts/hooty.png)
+<h2 align="center">Figure 1.0 Hooty</h2>
 
 ## 🏗️ Project Structure
 
@@ -134,3 +135,6 @@ This project is part of the Hooty's Hideout repository.
 ---
 
 For more information, visit the repository at [github.com/Jz1221/Hooty-s-Hideout](https://github.com/Jz1221/Hooty-s-Hideout)
+
+## Video Reference
+https://youtu.be/y7kvxIQQxtQ?si=0-4CEtR_UxrzaSVT
