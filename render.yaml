@@ -1,0 +1,17 @@
+services:
+  - type: web_service
+    name: productify-backend
+    env: node
+    region: oregon
+    branch: main
+    rootDir: backend
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+  - type: static_site
+    name: productify-frontend
+    env: static
+    region: oregon
+    branch: main
+    rootDir: frontend
+    buildCommand: npm install && npm run build
+    publishPath: dist
